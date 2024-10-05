@@ -1,3 +1,8 @@
+// MOST EFFICIENT SOLUTION
+function disemvowel(str) {
+  return str.replace(/[aeiou]/gi, '');
+}
+// Solution 2
 function disemvowel(str) {
 // initialize a string of all values that should be removed
   let vowels = 'AEIOUaeiou';
@@ -10,3 +15,5 @@ function disemvowel(str) {
   }
   return arr.join('');
 }
+
+
